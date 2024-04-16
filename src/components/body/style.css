@@ -1,0 +1,74 @@
+.main-poster {
+    text-align: center;
+    object-fit: contain;
+}
+
+.main-img {
+    width: 85%;
+    height: 65dvh;
+}
+
+.info-container {
+    text-align: center;
+    padding: 2% 22%;
+    background-color: rgb(235, 97, 120);
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.info-heading {
+    font-size: 3rem;
+}
+
+.info-para {
+    font-size: 1.5rem
+}
+
+.info>button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    box-shadow: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.info>button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, .1)
+}
+
+.first-para {
+    color: rgb(235, 97, 120);
+
+}
+
+.para-container {
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.address-container {
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    width: 33%;
+    text-align: center;
+}
+
+.address>h3 {
+    font-size: 1.7rem;
+    color: rgb(255, 35, 72);
+
+}

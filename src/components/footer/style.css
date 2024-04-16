@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+}
+
+.footer-text {
+    background-color: grey;
+    padding: 15px;
+}
+
+.footer-text-sub {
+    color: grey;
+}

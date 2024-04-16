@@ -1,0 +1,34 @@
+  .heading {
+      color: rgb(235, 97, 120);
+      line-height: 0rem;
+  }
+
+  .sub-heading {
+      color: grey;
+  }
+
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: grey;
+
+  }
+
+  .item {
+      text-align: center;
+      flex-grow: 1;
+      padding: 5px;
+      color: white;
+      cursor: pointer;
+
+  }
+
+  .item:hover {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+  }
+
+
+  .active {
+      background-color: rgb(235, 97, 120);
+  }
